@@ -1,6 +1,10 @@
 # Apple Stock Price Prediction using R
 
-This script uses historical stock data for Apple Inc. (AAPL) to predict future stock prices. It uses ggplot to plot the volume and open prices of the stock, and then creates an algorithm to find the best time to buy and sell the stock.
+This script uses historical stock data for Apple Inc. (AAPL) to predict future stock prices. It uses ggplot2 to plot the volume and open prices of the stock and then creates an algorithm to find the best time to buy and sell the stock.
+
+# The Reason Why You want this project and What to learn from it
+
+Learning R programming can be a daunting task for beginners, but with a hands-on project like predicting the price of Apple stock, the process becomes more engaging and practical. To start, one can gather historical data on the stock using an API or a CSV file. Then, they can use R libraries like tidyverse, quantmod, and ggplot2 to manipulate, visualize, and analyze the data. The next step is to build a predictive model using regression or time series analysis techniques. Once the model is trained, it can be used to predict future prices of the stock. Additionally, the volume and price data can be plotted using ggplot2 to identify trends and patterns. Finally, the best time to buy and sell the stock can be determined using the predicted prices and a trading strategy. This project not only teaches R programming but also valuable skills in finance and data analysis.
 
 ## Required Packages
 
@@ -18,7 +22,7 @@ library(ggplot2)
 
 ## Data
 
-The historical stock data used for this analysis is obtained from Yahoo Finance using the `pdfetch` and `qauntmod` packages. The data spans from January 1st, 2010 to December 31st, 2020.
+The historical stock data used for this analysis is obtained from Yahoo Finance using the `prefetch` and `qauntmod` packages. The data spans from January 1st, 2010 to December 31st, 2020.
 
 ## Data Exploration
 
